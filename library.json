@@ -1,0 +1,21 @@
+{
+    "name": "Texas Instruments HDC10XX",
+    "keywords": "Texas Instruments TI HDC1000 HDC1008 HDC1010 HDC1050 HDC1080 humidity temperature",
+    "description": "Arduino driver for Texas Instruments HDC10XX humidity and temperature sensors with I2C bus. Supports blocking and non-blocking use of HDC1000, HDC1008, HDC1010, HDC1050 and HDC1080.",
+    "authors": [
+      {
+        "name": "Jens B.",
+        "maintainer": true
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jnsbyr/arduino-hdc10xx/"
+    },
+    "version": "1.0.0",
+    "examples": "examples/*/*.ino",
+    "license": "Apache-2.0",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "headers": "TI_HDC10XX.h"
+}
